@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG-IT</title>
+    <link rel="stylesheet" href="css/styles_8.css">
+</head>
+<body>
+    <main>
+        <header>
+            <div>
+                <a href="index.html">BLOGIt</a>
+            </div>
+            <nav>
+                <a href="About_8.html">About</a>
+                <a href="Read_8.html">Read</a>
+                <a href="Blog_8.html">Blogs</a>
+            </nav>
+        </header>
+        <div class="container">
+            <h1>About This Platform</h1>
+            <p>
+              Welcome to a place where words bloom softly and stories echo deeply.  
+              This platform was created with the belief that **everyone has something meaningful to share**.  
+              Whether it’s a whisper of truth, a scream of fear, or a burst of imagination—your voice matters.  
+              Here, we listen, we support, and we grow together. 💜
+            </p>
+        
+            <p class="invite">Let’s start blogging now, won’t we?</p>
+            <button class="start-button" onclick="openForm()">Start Blogging</button>
+        
+            <div class="confirmation" id="confirmationMessage">
+              ✨ Thank you! Your blog has been submitted for review.
+            </div>
+          </div>
+        
+          <div class="modal" id="blogModal">
+            <div class="modal-content">
+              <h2>Submit a Blog</h2>
+              <input type="text" id="blogTitle" placeholder="Blog Title" />
+              <select id="blogCategory">
+                <option value="">Select Category</option>
+                <option value="Reality">Reality</option>
+                <option value="Horror">Horror</option>
+                <option value="Sci-Fi">Sci-Fi</option>
+                <option value="Inspiration">Inspiration</option>
+              </select>
+              <textarea id="blogContent" rows="5" placeholder="Write your blog here..."></textarea>
+              <button onclick="submitBlog()">Submit</button>
+            </div>
+          </div>
+    </main>
+    <footer>
+        <p>&copy; HOPE TAKALO 2025</p>
+    </footer>
+    <script src="js/script_8.js"></script>
+</body>
+</html>
