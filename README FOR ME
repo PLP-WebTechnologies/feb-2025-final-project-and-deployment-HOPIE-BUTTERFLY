@@ -28,4 +28,7 @@ Now we add the git files on our local git wit command ** git add .**
 
 Deployment
 
-GO to seetings
+GO to settings
+Go to pages
+Go to  branch specify it to main
+save changes and it will deploy
