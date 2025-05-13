@@ -3,3 +3,29 @@ Hello this will include instructions on how to deploy and push on github but fir
 GITHUB
 
 HOW TO PUSH 
+You would first need to know which master you are on then you type **ls(list)**- this list all the folders 
+**cd **then file name -you will type it out a bit and then click tab it finishes the sentence for you
+**ls **again to list files then tab for the file you want.
+**ls **again to see if thats the file you want.now that all that is done you enter
+YOU want the local file to now be initialised as a git file so you type** git init **then enter
+if you look at the files now they will hav a //.git file//--files are succesfully initialised how to look?
+**ls -al **this list all the files even the hidden files thats where you will see the git file
+Now type git status to see the status of your files ,this will show you if commits have made the branch master
+Now we add the git files on our local git wit command ** git add .**
+**git status** shows you what you want to commit  basically the status of your file
+**git commit -m** now we commiting changes on our local pc
+***git log*****  would show you the history of your commits
+** git remote add +link of repo *** now we trying to link the local file to the remote hub//to the cloud
+** git remote add name** so now you naming the link of repo because you can link the local repo multiple remote repo's
+** git pull name**  you cannot pushh without pulling when there are changes/ conflict and --but you are pulling first because it will override the existing files if you do not pull current info
+** git pull name main**  changing local files branch to main fom master
+** git pull name main --allow-unrelated-histories***
+** git branch **** cheching if branch is master or main
+** git bracnch -m main ***
+** git branch*** returns value main as it has been changed from master to main
+** git push --set upstream branch name main**
+
+
+Deployment
+
+GO to seetings
